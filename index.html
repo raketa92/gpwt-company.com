@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>gpwt-company</title>
+	<!--fonts-->
+	<!--//fonts-->
+	<link rel="shortcut icon" href="images/logo (2).png" type="image/x-icon">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/swipebox.css">
+
+	<!-- for-mobile-apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="keywords" content="Heavy Industry Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<script src="js/modernizr.custom.js"></script>
+	<!-- start-smoth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- start-smoth-scrolling -->
+</head>
+
+<body>
+	<!-- top header -->
+	<div class="banner">
+		<div class="container">
+			<div class="top-header">
+				<div class="top-left">
+					<ul>
+						<li><a href="index.html">ГЛАВНАЯ СТРАНИЦА</a></li>
+						<li><a href="#banner-bottom">О НАС</a></li>
+						<li><a href="#top-industries">ОТРАСЛИ</a></li>
+						<li><a href="#footer">КОНТАКТ</a></li>
+					</ul>
+				</div>
+				<div class="top-right">
+					<ul>
+						<li><a href="en/index.html"> <img src="images/en.png" alt="" width="30" height="30"></a></li>
+						<li><a href="#"><img src="images/tm.png" alt="" width="30" height="21"></a></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+				<div class="top-logo">
+					<a href="index.html"> <img src="images/logo.png" alt="" width="30" height="30"> <br> <span>GPWT</span> 
+					</a>
+				</div>
+			</div>
+			<div class="top-nav">
+				<div class="nav-icon">
+					<div class="clearfix"></div>
+				</div>
+				<div class="box" id="box">
+					<div class="box_content">
+						<div class="box_content_center">
+							<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a class="active" href="index.html"><span>home</span></a></li>
+										<li><a href="about1.html"><span>gp</span></a></li>
+										<li><a href="about2.html"><span>vt</span></a></li>
+										<li><a href="about3.html"><span>pre</span></a></li>
+
+
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--start-click-drop-down-menu-->
+			<!--start-dropdown-->
+			<script type="text/javascript">
+				var $ = jQuery.noConflict();
+				$(function () {
+					$('#activator').click(function () {
+						$('#box').animate({
+							'top': '0px'
+						}, 900);
+					});
+					$('#boxclose').click(function () {
+						$('#box').animate({
+							'top': '-1000px'
+						}, 900);
+					});
+				});
+				$(document).ready(function () {
+					//Hide (Collapse) the toggle containers on load
+					$(".toggle_container").hide();
+					//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+					$(".trigger").click(function () {
+						$(this).toggleClass("active").next().slideToggle("slow");
+						return false; //Prevent the browser jump to the link anchor
+					});
+
+				});
+			</script>
+			<!--//End-click-drop-down-menu-->
+			<div class="banner-info">
+				<!-- responsiveslides -->
+				<script src="js/responsiveslides.min.js"></script>
+				<script>
+					// You can also use "$(window).load(function() {"
+					$(function () {
+						// Slideshow 4
+						$("#slider3").responsiveSlides({
+							auto: true,
+							pager: false,
+							nav: false,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+								$('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+								$('.events').append("<li>after event fired.</li>");
+							}
+						});
+					});
+				</script>
+				<!-- responsiveslides -->
+				<div id="top" class="callbacks_container">
+					<ul class="rslides" id="slider3">
+						<li>
+							<div class="banner-text">
+								<h3>ОПЫТ И ПРОИЗВОДСТВО</h3>
+								<p>Качество и гарантия</p>
+							</div>
+						</li>
+						<li>
+							<div class="banner-text">
+								<h3>НАША ЦЕЛЬ НЕПРЕРЫВНО </h3>
+								<p>Удовлетворять наших клиентов</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //top header -->
+	<!-- banner-bottom -->
+	<div id="banner-bottom">
+		<div class="container">
+
+
+
+			<h3 class="tittle">О НАС</h3>
+			<div class="strip"></div>
+			<p>В холдинг «GPWT company» входят три компании с мировым именем и опытом работы любой
+				сложности. Холдинг
+				«GPWT company» работает по следующим направлениям:</p>
+			<div class="accordion">
+				<button type="button" class="accordion__button">Подробнее...</button>
+				<div class="accordion__content">
+					<p>
+						<h2>1</h2> Компания «GP Электричество, Механика и Строительство»
+						Компания «GP Электричество, Механика и Строительство» заключила много международных
+						дистрибьюторских
+						договоров и имеет деловые отношения с компаниями по всему миру. На данный момент является
+						одним из
+						основных поставщиков международных компаний, работающих в Европе и Азии. Наша компания
+						сотрудничает с
+						производителями во многих странах мира, которые предоставляют высококачественные,
+						конкурентоспособные
+						электрические, механические и промышленные товары, благодаря этому мы предоставляем товары
+						нашим
+						клиентам на более выгодных условиях. Благодаря большому опыту и высокому профессионализму
+						наших
+						специалистов, мы обеспечиваем наших клиентов лучшим сервисом. Компания «GP Электричество,
+						Механика и
+						Строительство» предлагает своим клиентам широкий ассортимент товаров, благодаря заключенных
+						дистрибьюторских договоров, при этом, мы создаем самые благоприятные условия для
+						предоставления
+						запрашиваемых товаров. Наша компания поставляет следующие товары: электромонтажные подрядное
+						оборудование, насосы и гидрофорные системы, трубы ПВХ и соединительные системы,
+						металлические трубные
+						системы, пожарная группа, системы отопления, системы кондиционирования воздуха, машины
+						дробления,
+						просеивания и бетонные цеха, строительные опалубки и вышки-туры, паркеты и системы
+						напольного покрытия,
+						дверные системы и т.д
+
+						<h2>2</h2> Компания «PWT»
+						40-летний опыт работы с национальными и международными проектами сделала Компанию «PWT»
+						одним из ведущих
+						генподрядчиков в сфере проектирования, строительства и эксплуатации заводов по обработке
+						питьевых,
+						технологических и сточных вод. Реализация сложных проектов наделила нас необходимым опытом.
+						В частности
+						мы гордимся тем, что нас называют «решатели проблем» в отрасли водной индустрии. Наша
+						многопрофильная
+						команда экспертов охватывает все аспекты проектирования, строительства заводов, а также
+						гарантируют
+						всеобъемлющий опыт. Компания «PWT» уже на протяжении 30 лет успешно оперирует на мировом
+						рынке в
+						качестве надежного партнера в сфере оказании услуг «под-ключ» в области систем водоснабжения
+						и
+						канализации, опреснения соленых и морских вод, систем охлаждения электростанций,
+						обеззараживания и
+						очистки промышленных вод.
+
+						<h2>3</h2> Компания «GP Papenburg»
+						Качественное строительство и ремонт дорог, задача, стоящая на особом контроле любого
+						государства.
+						Несмотря на это, только отдельные дорожно-строительные компании работают, соблюдая нормативы
+						и
+						придерживаясь технологии. Проблема выбора подрядчика, предоставляющего услуги по дорожному
+						строительству, не исчезла. Построить надежную и долговечную дорогу сможет только крупная
+						организация,
+						владеющая собственным производством материалов и парком спецтехники. Дорожно-строительная
+						компания «GP
+						Papenburg» обладает необходимыми ресурсами, базой и опытом. Осуществляем полный цикл работ
+						от
+						геодезической съемки и выбора технологии, до производства материалов и укладки дорожных
+						одежд.
+						Дополнительно установим дорожные знаки и нанесем разметку, выполним благоустройство и
+						асфальтирование
+						территорий, озеленение зон отдыха. Приложим все усилия, чтобы сделать быстрей и лучше.
+
+					</p>
+				</div>
+			</div>
+
+
+
+
+		</div>
+	</div>
+	<!-- //banner-bottom -->
+
+	<!--start-yachts-->
+	<div id="top-industries" class="gallery">
+		<div class="container">
+			<h3 class="tittle">ОТРАСЛИ</h3>
+			<div class="gallery-bottom">
+				<div class="view view-ninth">
+					<img src="images/elektr/gp-elektrik-mekanik-insaat-index.jpg" alt="" class="img-responsive">
+					<div class="mask mask-1"></div>
+					<div class="mask mask-2"></div>
+					<div class="content">
+						<a href="about1.html">Компания «GP Электричество, Механика и Строительство» </a>
+						<p>Миссия компании - сочетать интересы страны с глобальными реальностями.
+						</p>
+
+					</div>
+
+				</div>
+				<div class="view view-ninth">
+					<img src="images/g2.jpg" alt="" class="img-responsive">
+					<div class="mask mask-1"></div>
+					<div class="mask mask-2"></div>
+					<div class="content">
+						<a href="about2.html">Компания «PWT» </a>
+						<p>Повышайте качество, снижая цены - сотрудничая с компанией PWT как с партнёром вы
+							извлекаете выгоду из нашего 40-летниго опыта реализации проектов</p>
+
+					</div>
+
+				</div>
+				<div class="view view-ninth">
+					<img src="images/gp/Papenburg.jpg" alt="" class="img-responsive">
+					<div class="mask mask-1"></div>
+					<div class="mask mask-2"></div>
+					<div class="content">
+						<a href="about3.html">Компания «GP Papenburg»</a>
+						<p>Гарантируем разработку экономически выгодного проектного решения, соответствующего
+							условиям эксплуатации.</p>
+
+					</div>
+
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.swipebox.min.js"></script>
+	<script type="text/javascript">
+		jQuery(function ($) {
+			$(".swipebox").swipebox();
+		});
+	</script>
+
+	<!--destination-starts-->
+	<div class="destination">
+		<div class="container">
+			<div class="destination-1">
+				<div class="col-md-3 destination-left">
+					<img src="images/12.jpg" alt="" width="285" height="285">
+					<div class="tool">
+						<img src="images/arrow.png" alt="" />
+					</div>
+				</div>
+				<div class="col-md-3 destination-left destination-middle">
+					<h4>Компания «GP Электричество, Механика и Строительство» </h4>
+					<div class="strip one"></div>
+					<p>строительные и электрические проекты СМР для электростанций, подстанций и линий электропередачи.
+						<div onclick="show('none')" id="wrap"></div>
+
+						<!-- Само окно-->
+						<div id="window">
+
+							<!-- Картинка крестика-->
+							<img class="close2" onclick="show('none')" src="images/close1.png">
+							<p>Со своим большим опытом, предлагает услуги проектирования и строительства, в частности :
+								строительные и электрические проекты СМР для электростанций, подстанций и линий
+								электропередачи. Успешно реализованные проекты поставили компанию на позицию
+								стратегического и предпочтенного бизнес-партнера. Компания «GP Электричество, Механика и
+								Строительство» основываясь на взаимном доверии с клиентами и поставщиками, старается
+								установить долгосрочные и профессиональные деловые отношения. И благодаря своим
+								потенциалам, имеет возможность предоставлять конкурентоспособные цены, высокое качество
+								продукции и услуг.</p>
+						</div>
+					</p>
+				</div>
+				<div class="col-md-3 destination-left destination-right">
+					<img src="images/13.jpg" alt="" width="285" height="285">
+					<div class="tool">
+						<img src="images/arrow.png" alt="" />
+					</div>
+				</div>
+				<div class="col-md-3 destination-left destination-middle">
+					<h4>Компания «PWT» </h4>
+					<div class="strip one"></div>
+					<p>проектирует и сдаёт «под-ключ» заводы по очистке как поверхностных, так и грунтовых вод.
+						<div onclick="show('none')" id="wrap1"></div>
+
+						<!-- Само окно-->
+						<div id="window1">
+
+							<!-- Картинка крестика-->
+							<img class="close2" onclick="show('none')" src="images/close1.png">
+							<p>Проектирует и сдаёт «под-ключ» заводы по очистке как поверхностных, так и грунтовых вод,
+								а также заводы по опреснению соленых вод. Доказанное превосходство классических методов
+								наряду с инициативой и обязательствами по разработке новых технологий, формирует основу
+								наших возможностей предложить нашим клиентам верные пути решения их задач, сегодня и в
+								будущем.</p>
+						</div>
+					</p>
+				</div>
+				<div class="col-md-3 destination-left destination-middle">
+					<h4>Компания «GP Papenburg»</h4>
+					<div class="strip one"></div>
+					<p>серьезный подход к делу обеспечил репутацию надежного и добросовестного подрядчика строительства дорог по всему миру. 
+						<div onclick="show('none')" id="wrap2"></div>
+
+						<!-- Само окно-->
+						<div id="window2">
+
+							<!-- Картинка крестика-->
+							<img class="close2" onclick="show('none')" src="images/close1.png">
+							<p>Серьезный подход к делу обеспечил репутацию надежного и добросовестного подрядчика
+								строительства дорог по всему миру. Значительную роль в этом сыграли корпоративные
+								стандарты компании, которых придерживаемся с момента основания. </p>
+						</div>
+					</p>
+				</div>
+				<div class="col-md-3 destination-left">
+					<img src="images/14.jpg" alt="" width="285" height="285">
+					<div class="tool two">
+						<img src="images/arrow.png" alt="" />
+					</div>
+				</div>
+				<div class="col-md-3 destination-left destination-middle">
+					<h4>Компания «GP Papenburg»</h4>
+					<div class="strip one"></div>
+					<p>направлена на строительство надежных и безопасных дорог.
+						<div onclick="show('none')" id="wrap3"></div>
+
+						<!-- Само окно-->
+						<div id="window3">
+
+							<!-- Картинка крестика-->
+							<img class="close2" onclick="show('none')" src="images/close1.png">
+							<p>Направлена на строительство надежных и безопасных дорог. Своей задачей считаем внедрение
+								инновационных технологий и усовершенствование старых за счет современной спецтехники.
+								Внедрение этих принципов среди заказчиков и других компаний по строительству дорог
+								поможет вывести дорожную инфраструктуру на качественно новый уровень.</p>
+						</div>
+					</p>
+				</div>
+				<div class="col-md-3 destination-left">
+					<img src="images/15.jpg" alt="" width="285" height="285">
+					<div class="tool two">
+						<img src="images/arrow.png" alt="" />
+					</div>
+				</div>
+
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--destination-end-->
+	<!-- footer -->
+	<!-- <div id="footer">
+		<div class="container">
+			<div class="div1">
+				<div class="col-md-3 head">
+					<h3>get inspired</h3>
+					<ul class="inspired">
+						<li><a href="#">Machinery</a></li>
+						<li><a href="#">Instrumentation</a></li>
+						<li><a href="#">Mechanisms</a></li>
+						<li><a href="#">protections</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 head">
+					<h3>support</h3>
+					<ul class="customer">
+						<li><a href="#">Terms and Conditions</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="#">FAQ</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-3 head">
+					<h3>contents</h3>
+					<ul class="contents">
+						<li><a href="#">Asperiores</a></li>
+						<li><a href="#">Doloribus</a></li>
+						<li><a href="#">Asperiores</a></li>
+						<li><a href="#">Doloribus</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 mail_soc">
+					<div class="form_data">
+						<h3>SUBSCRIBE TO OUR MAILING LIST</h3>
+						<form>
+							<input type="email" value="Enter your email" onfocus="this.value = '';"
+								onblur="if (this.value == '') {this.value = 'Enter your email';}" required="">
+							<input type="submit" value=" ">
+						</form>
+
+					</div>
+					
+				</div>
+				<div class="clearfix"></div>
+			</div>
+
+		</div>
+	</div> -->
+	<!-- footer -->
+	<!-- copy -->
+	<div class="div2">
+		<div class="container">
+			<p>© 2019 GPWT COMPANY. All rights reserved</p>
+		</div>
+	</div>
+	<!-- copy -->
+	<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+	<!-- //for bootstrap working -->
+	<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- //smooth scrolling -->
+	<script type="text/javascript">
+		//Функция показа
+		function show(state) {
+
+			document.getElementById('window').style.display = state;
+			document.getElementById('wrap').style.display = state;
+		}
+	</script>
+	<script type="text/javascript">
+		//Функция показа
+		function show(state) {
+
+			document.getElementById('window1').style.display = state;
+			document.getElementById('wrap1').style.display = state;
+		}
+	</script>
+	<script type="text/javascript">
+		//Функция показа
+		function show(state) {
+
+			document.getElementById('window2').style.display = state;
+			document.getElementById('wrap2').style.display = state;
+		}
+	</script>
+	<script type="text/javascript">
+		//Функция показа
+		function show(state) {
+
+			document.getElementById('window3').style.display = state;
+			document.getElementById('wrap3').style.display = state;
+		}
+	</script>
+	<script>
+        document.querySelectorAll('.accordion__button').forEach(button =>{
+            button.addEventListener('click', ()=>{
+                const accordionContent = button.nextElementSibling;
+                button.classList.toggle('accordion__button--active');
+                if (button.classList.contains('accordion__button--active')){
+                    accordionContent.style.maxHeight = accordionContent.scrollHeight+'px'
+                } else{
+                    accordionContent.style.maxHeight = 0;
+                }
+            });
+
+
+        });
+    </script>
+</body>
+
+</html>
